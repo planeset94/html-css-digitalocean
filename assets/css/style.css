@@ -1,0 +1,22 @@
+[class*="col-"]{
+    border: 1px solid black;
+    height: 50px;
+    background-color: green;   
+   
+}
+.col-lg-3 img{
+    width:60%;
+}
+
+ul>li:nth-of-type(2){
+    padding: 0 20px;
+    }
+ul>li:last-of-type{
+    padding-left:10px;
+    }
+
+ul i {
+    font-size: 0.9rem;
+    align-self: flex-end;
+}
+
