@@ -1,22 +1,163 @@
-[class*="col-"]{
-    border: 1px solid black;
-    height: 50px;
-    background-color: green;   
-   
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-.col-lg-3 img{
-    width:60%;
+nav [class*="col-"]{
+    height: 90px;
+    background-color: red;
+
 }
 
-ul>li:nth-of-type(2){
+/* UTILITY CLASS */
+h1{
+    font-size: 2.5rem;
+}
+.p_normal{
+    font-size: 1rem;
+}
+.d_flex{
+    display: flex;
+}
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+   
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav .col-lg-3 img{
+    width:130px;
+}
+
+nav li{
+    color: #0B2354;
+    font-size: 0.9rem;
+}
+nav i{
+    padding-left: 3px;
+    font-size: 0.9rem;
+    align-self: flex-end;
+    color: #0B2354;
+}
+
+nav a{
+    color:#1B7BFF;
+    font-size: 0.9rem;
+}
+
+nav .col-lg-5 ul>li:nth-of-type(2){
     padding: 0 20px;
     }
-ul>li:last-of-type{
+nav .col-lg-5 ul>li:last-of-type{
     padding-left:10px;
     }
 
-ul i {
-    font-size: 0.9rem;
-    align-self: flex-end;
+nav .col-lg-4 ul>li:nth-of-type(2), nav .col-lg-4 ul>li:nth-of-type(3), nav .col-lg-4 ul>li:last-of-type {
+    padding-left: 20px;
+}
+nav .col-lg-4 ul>li:last-of-type{
+    padding-right: 10px;
+}
+nav li>a{
+    padding:5px;
+    border: 1px solid #74AEFF;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+nav .lg-hide{
+    display: none;
+}
+
+
+/* HEADER Aside  */
+aside{
+    width: 100%;
+    height: 400px;
+    background-color: #004AFF;
+}
+
+aside [class*="col-"]{
+    border:1px solid red;
+}
+
+aside .col-lg-4{
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+/* MEDIA QUERY  */
+
+
+@media all and (min-width:768px) and (max-width:999px){
+    .container{
+        margin:0 3rem;
+        
+    }
+    nav i{
+        color:#3a8aff;
+        font-size: 1rem;
+        margin:1rem 0;
+    }
+    
+    nav .col-lg-3 img{
+        width:140px;
+      
+    }
+    .lg-hide{
+        display: block;
+    }
+
+    .md-hide{
+        display: none;
+    }
+
+    .xs-hide{
+        display: none;
+    }
+
+  
+}
+
+@media all and (max-width:767px){
+    nav i{
+        color:#3a8aff;
+        font-size: 1.1rem;
+        margin:1rem 0;
+    }
+
+    .container{
+        margin:0 3rem;
+        min-width:300px;
+    }
+    .lg-hide{
+        display: block;
+    }
+
+    .md-hide{
+        display: none;
+    }
+
+    .xs-hide{
+        display: none;
+    }
+    .col-lg-3 img{
+        width:160px;
+        
+    }
 }
 

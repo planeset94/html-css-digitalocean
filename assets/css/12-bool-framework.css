@@ -20,7 +20,7 @@
 }
 .row{
     width: 100%;
-    margin:0 -15px;
+    /* margin:0 -15px; */
 
 
 }
@@ -121,6 +121,18 @@ width: calc((100%/12) *1);
 .flex-y-center{
     display: flex;
     align-items: center;
+}
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+   
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .my2{
     margin:2rem 0;
@@ -235,7 +247,7 @@ Anche questo è poco flessibile  */
 }
 
 /* Dispositivi MD  */
-@media all and (min-width:768px) and (max-width:991px){
+@media all and (min-width:768px) and (max-width:1000px){
     h1{
         font-size: 2rem;
     }
@@ -317,9 +329,7 @@ Anche questo è poco flessibile  */
 
 /* Dispositivi LG  */
 @media all and (min-width:1000px){
-    h1{
-        font-size: 2.5rem;
-    }
+  
 /* colonne 12° */
 
     .col-lg-1{

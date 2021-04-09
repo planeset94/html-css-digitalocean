@@ -17,16 +17,22 @@
 <body>
     <!-- Site Header  -->
     <header>
-        <nav class="">
+        <!-- NAV BAR  -->
+        <nav class="flex-y-center">
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-3 col-md-11 col-xs-11 flex-y-center">
+                    <div class="col-lg-3 col-md-2 col-xs-2 ">
                         <img src="./assets/img/logo.png" alt="logo grande">
                     </div>
 
+                    <!-- Not visible for LG  -->
+                    <div class="col-md-10 col-xs-10  flex-right lg-hide">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <!-- /Not visible for LG  -->
 
-                    <div class="col-lg-5 flex-y-center">
+                    <div class="col-lg-5   flex-center md-hide">
                         <ul class="list-none">
                             <li>Products</li><i class="fas fa-chevron-down"></i>
                             <li>Customers</li>
@@ -36,53 +42,50 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-4 flex-y-center">
+                    <div class="col-lg-4 flex-right xs-hide">
                         <ul class="list-none">
                             <li>Docs</li>
                             <li>Support</li><i class="fas fa-chevron-down"></i>
                             <li>Login</li>
-                            <li>Sign Up</li>
+                            <li><a href="#">Sign Up</a></li>
 
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- /NAV BAR  -->
+        <!-- ASIDE BAR  -->
+        <aside class="flex-y-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
 
+                        <h1>The simplest cloud platform for developers & teams</h1>
+                        <p class="p_normal">Deploy, manage, and scale cloud applications faster and more efficiently on
+                            DigitalOcean. We
+                            make
+                            managing infrastructure easy for teams and businesses, whether you're running one
+                            virtual machine or ten thousand.
+                        </p>
+
+                    </div>
+
+                    <div class="col-lg-4">
 
 
 
                     </div>
+
+
+
                 </div>
-
-            </div>
-
-
-        </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <aside>
-            <div class="container">
-
 
 
 
             </div>
         </aside>
-
+        <!-- /ASIDE BAR  -->
 
 
 
