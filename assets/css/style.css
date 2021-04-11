@@ -3,17 +3,52 @@
 h1{
     font-size: 3.5rem;
 }
+h3{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 0.8rem;
+}
 .p_normal{
     font-size: 1.2rem;
+}
+
+.p_medium{
+    font-size: 1rem;
+}
+.p_small{
+    font-size: 0.8rem;
 }
 .color_white{
     color: white;
 }
+.color_white2{
+    color:#F2F7FF;
+}
 .color_lightgrey{
     color:#B3C6FE;
 }
-
-
+.color_lightblue{
+    color: #026BFF;
+}
+.color_signin{
+    color: #283D68;
+}
+.color_darkgrey{
+    color: #6C6C6C;
+    }
+.color_silver{
+    color:#7b86a0;
+}
+.bc_lightblue2{
+    background-color: #579AFF;
+}
+.bc_grey{
+    background-color: #f3f5f9;
+}
+.dec-none{
+    text-decoration: none;
+}
 
 /* HEADER > NAV  */
 nav{
@@ -64,7 +99,7 @@ nav li>a{
     padding:5px;
     border: 1px solid #74AEFF;
     border-radius:5px;
-    text-decoration: none;
+    
 }
 
 
@@ -74,9 +109,13 @@ nav li>a{
 .jumbotron{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #004AFF;
     padding:5rem 0;
+    background-image: url('../img/bg-banner-home.jpg');
+    background-size: cover;
+    background-position-x: 25%;
 }
 
 #jumbo_container{
@@ -86,13 +125,115 @@ nav li>a{
 .left_jumbo{
     flex-basis:60%;
     padding-right: 3rem;
+    padding-top:0.5rem;
+
 }
 .right_jumbo{
     flex-basis: 40%;
     background-color: white;
-    height: 100px;
     border-radius: 5px;
+    padding:1.5rem 0.8rem;
+    text-align: center;  
 }
+.right_jumbo h3{
+    padding:0.1rem 0;
+}
+.right_jumbo input,.right_jumbo a.link_google{
+    width: 100%;
+    height: 30px;
+   
+}
+.right_jumbo input{
+    margin:0.4rem 0;
+    padding:0 0.3rem;
+    border: 1px solid #F5F5F5;
+
+}
+  [type="submit"]{
+    vertical-align: middle;
+}
+
+.right_jumbo a.link_google{
+    border: 1px solid #F5F5F5;
+    box-shadow: 1.5px 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.right_jumbo img{
+    max-width: 21px;
+    position:absolute;
+    left: 10px;
+}
+
+.right_jumbo p{
+    padding-top: 0.8rem;
+    font-weight: bold;
+}
+
+/* ---------- MAIN -------- */
+
+            /* SECTION ONE  */
+section.s_one{
+    width: 100%;
+    Display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_one .full-width{
+    flex-basis: 100%;   
+    border:2px solid black;
+}
+
+.s_one div.silver-title{
+    padding-top: 2.5rem;
+    text-align: center;
+   
+}
+
+.s_one div.photos{
+    padding:2rem 0 1.5rem 0;
+    
+}
+
+.s_one div.photos ul{
+    display: flex;
+    align-items: center; 
+}
+
+.s_one div.photos .xs-ulist{
+    display: flex;
+    flex-direction: column;
+}
+.s_one div.photos img{
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.s_one .stories{
+    padding-bottom: 2rem;
+    text-align: center;  
+}
+.s_one .stories span{
+    padding-left: 5px;
+}
+
+.hide-photos-xs{
+    display: block;
+}
+
+.hide-photos-lg-md{
+    display: none;
+}
+
+
+
+
+
 
 
 
@@ -110,7 +251,7 @@ nav li>a{
 
     
     .container{
-        margin:0 3rem;
+        margin:0 2rem;
         
     }
     nav i{
@@ -135,26 +276,49 @@ nav li>a{
     .xs-hide{
         display: none;
     }
+
+
     /* HEADER Jumbotron  */
     .left_jumbo{
-        flex-basis:60%;
+        flex-basis:65%;
         padding-right: 1rem;
     }
     .right_jumbo{
-        flex-basis: 40%;
-        height: 100px;
+        flex-basis: 35%;
+        padding:1.5rem;
+        
     }
   
+    h3{
+        font-size: 1.8rem;
+    }
+        /* MAIN  */
+
+   
+
+
+
 }
 
 @media all and (max-width:767px){
 
     /* GENERAL RULES  */
     .container{
-        margin:0 3rem;
+        margin:0 1.3rem;
         min-width:300px;
     }
-
+    h1{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 1.9rem;
+    }
+    .p_normal{
+        font-size: 1.5rem;
+    }
+    .p_medium{
+        font-size: 1.2rem;
+    }
     /* NAV RULES  */
     nav i{
         color:#3a8aff;
@@ -164,15 +328,15 @@ nav li>a{
     .logo_bar>img{
         width: 170px;
     }
-    nav .lg-hide{
+    .lg-hide{
         display: block;
     }
 
-    nav .md-hide{
+    .md-hide{
         display: none;
     }
 
-    nav .xs-hide{
+   .xs-hide{
         display: none;
     }
 
@@ -183,13 +347,33 @@ nav li>a{
    }
     .left_jumbo{
         flex-basis:100%;
+        padding-right: 0;
         
     }
     .right_jumbo{
         flex-basis: 100%;
-        height: 100px;
-
         margin-top: 0.8rem;
+        padding-top: 2.3rem;
     }
+      /* MAIN  */
+
+      .hide-photos-xs{
+          display: none;
+      }
+
+      .hide-photos-lg-md{
+          display: block;   
+        }
+        
+
+        .half-width{
+            background-color: chartreuse;
+        }
+  
+ 
+
+
+
+
 }
 
