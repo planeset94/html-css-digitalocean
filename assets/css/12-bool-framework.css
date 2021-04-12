@@ -113,6 +113,10 @@ width: calc((100%/12) *1);
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
+}
 .text-right{
     text-align: right;
 }
@@ -175,6 +179,15 @@ width: calc((100%/12) *1);
 .p-bottom2{
     padding-bottom: 2rem;
 }
+.p-bottom3{
+    padding-bottom: 3rem;
+}
+.p-bottom4{
+    padding-bottom: 4rem;
+}
+
+
+
 .p-top0.5{
     padding-top: 0.5rem;
 }
@@ -183,6 +196,12 @@ width: calc((100%/12) *1);
 }
 .p-top2{
     padding-top: 2rem;
+}
+.p-top3{
+    padding-top: 3rem;
+}
+.p-top4{
+    padding-top: 4rem;
 }
 
 /* -------MEDIA QUERY PER RESPONSIVE----------- */
