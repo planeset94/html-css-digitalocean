@@ -474,7 +474,17 @@ section.s_one{
         font-weight: bold;
     }
 
+/* 7° SECTION  */
 
+.s_seven{
+    background-color: #003BB5;
+}
+
+.s_seven a.crea-account{
+    padding:0.5rem;
+    background-color: white;
+    border-radius: 10px;
+}
 
 
 
@@ -506,7 +516,7 @@ section.s_one{
 @media all and (min-width:768px) and (max-width:999px){
 
     h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .p_medium{
         font-size: 1.2rem;
@@ -785,7 +795,7 @@ section.s_one{
         width: 100%;
     }
 
-
+    
 
 
 }
