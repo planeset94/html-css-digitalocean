@@ -144,6 +144,10 @@ width: calc((100%/12) *1);
 .mx2{
     margin:0 2rem;
 }
+
+.m-top2{
+    margin-top:2rem;
+}
 .py1{
     padding:1rem 0;
 }
