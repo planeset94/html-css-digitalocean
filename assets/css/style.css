@@ -250,23 +250,14 @@ section.s_one{
 
     /* SECTION TWO  */
 
-    .s_two [class*="col-"]{
+    /* .s_two [class*="col-"]{
         border:1px solid black;
-        /* height: 200px; */
+        height: 200px;
         
     }
-    
-    .s_two .side-bar{
-        position:relative;
-    }
-    
-    
-    .s_two .side-bar ul{
-        list-style: none;  
-        position:absolute;
-        left:50%;
-        transform: translateX(-50%);
-    }
+     */
+   
+
     
     .s_two .side-bar ul li:first-of-type{
         padding-top:0.5rem;
@@ -285,9 +276,16 @@ section.s_one{
         height: 200px;
     }
     
-
-
-
+    .s_two .col-12{
+        position:relative;
+    }
+    /* div.grey-line{
+        height: 250px;
+        width: 3px;
+        background-color: #D2D2D2;
+        position: absolute;
+        left: 35%;
+    } */
 
 
 
@@ -297,9 +295,16 @@ section.s_one{
         display: none;
     }
       /* MAIN 2°SECTION  */
+      .s_two .side-bar ul{
+        list-style: none;  
+        padding-left:4rem;
+    
+    }
       .fixed-height-lg-md{
         height: 200px;
     }
+    
+    
 
 }
 
@@ -307,6 +312,9 @@ section.s_one{
 
     h2{
         font-size: 2rem;
+    }
+    .p_medium{
+        font-size: 1.1rem;
     }
     .container{
         margin:0 2rem;
@@ -354,9 +362,16 @@ section.s_one{
 
    
     /* MAIN 2°SECTION  */
+    .s_two .side-bar ul{
+        list-style: none;  
+        padding-left:4rem;
+    
+    }
     .fixed-height-lg-md{
         height: 200px;
     }
+    
+    
 
 }
 
@@ -451,12 +466,37 @@ section.s_one{
    .main-bar div:first-of-type{
     padding-top: 0.5rem;
    }
-
+   .s_two .side-bar ul{
+    list-style: none;  
+    position:absolute;
+    left: 3%;
+}
+.s_two .side-bar{
+    position:relative;
+}
+div.grey-line{
+    height: 250px;
+    width: 3px;
+    background-color: #D2D2D2;
+    position: absolute;
+    left: 0;
+}
 
 
 
 }
 
+.s_two .side-bar{
+    position:relative;
+}
 
+.grey-line{
+    height: 250px;
+    width: 3px;
+    background-color: #D2D2D2;
+    position: absolute;
+    top:-3%;
+    left: 15%;
+}
 
 
