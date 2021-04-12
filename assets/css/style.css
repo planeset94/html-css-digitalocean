@@ -6,6 +6,9 @@ h1{
 h3{
     font-size: 1.6rem;
 }
+h4{
+    font-size: 1rem;
+}
 h5{
     font-size: 0.8rem;
 }
@@ -31,6 +34,9 @@ h5{
 .color_lightblue{
     color: #026BFF;
 }
+.color_darkblue{
+    color:#031C4E;
+}
 .color_signin{
     color: #283D68;
 }
@@ -38,7 +44,10 @@ h5{
     color: #6C6C6C;
     }
 .color_silver{
-    color:#7b86a0;
+    color:#5C6A88;
+}
+.color_silver2{
+    color: #7B859F;
 }
 .bc_lightblue2{
     background-color: #579AFF;
@@ -50,12 +59,6 @@ h5{
     text-decoration: none;
 }
 
-.float-right{
-    float: right;
-}
-.float-left{
-    float:left;
-}
 
 /* HEADER > NAV  */
 nav{
@@ -183,7 +186,7 @@ nav li>a{
 
 /* ---------- MAIN -------- */
 
-/* SECTION ONE  */
+    /* SECTION ONE  */
 section.s_one{
     width: 100%;
     Display: flex;
@@ -240,7 +243,9 @@ section.s_one{
 .full-flex{
     flex-basis: 100%;
 }
+    /* /SECTION ONE  */
 
+    /* SECTION TWO  */
 
 
 
@@ -386,9 +391,7 @@ section.s_one{
         height: 100%;
         width: 60%;
         position: relative;
-        left:21%;
-        
-        
+        left:21%;  
     }
 
     
@@ -403,3 +406,40 @@ section.s_one{
 
 
 
+
+.s_two [class*="col-"]{
+    border:1px solid black;
+    /* height: 200px; */
+    
+}
+
+.s_two .side-bar{
+    position:relative;
+}
+
+.s_two .side-bar ul{
+    list-style: none;  
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.s_two .side-bar ul li:first-of-type{
+    padding-top:0.5rem;
+}
+
+.s_two .emoticon{
+   width: 100%;
+   height: 40px;
+   
+}
+.s_two .emoticon img{
+    height: 90%;
+}
+
+.sub-container{
+    height: 200px;
+}
+.half-height{
+    height: 50%;
+}

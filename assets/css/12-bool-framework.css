@@ -110,6 +110,9 @@ width: calc((100%/12) *1);
     margin-left: calc((100%/12) *11);
 }
 
+.text-center{
+    text-align: center;
+}
 .text-right{
     text-align: right;
 }
@@ -141,8 +144,30 @@ width: calc((100%/12) *1);
 .mx2{
     margin:0 2rem;
 }
-
-
+.py1{
+    padding:1rem 0;
+}
+.py2{
+    padding:2rem 0;
+}
+.py3{
+    padding:3rem 0;
+}
+.py4{
+    padding:4rem 0;
+}
+.p-top4{
+    padding-top:4rem;
+}
+.p-top3{
+    padding-top:3rem;
+}
+.p-bottom1{
+    padding-bottom: 1rem;
+}
+.p-bottom2{
+    padding-bottom: 2rem;
+}
 
 /* -------MEDIA QUERY PER RESPONSIVE----------- */
 
