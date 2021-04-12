@@ -249,20 +249,7 @@ section.s_one{
     /* /SECTION ONE  */
 
     /* SECTION TWO  */
-
-    /* .s_two [class*="col-"]{
-        border:1px solid black;
-        height: 200px;
-        
-    }
-     */
    
-
-    
-    .s_two .side-bar ul li:first-of-type{
-        padding-top:0.5rem;
-    }
-    
     .s_two .emoticon{
        width: 100%;
        height: 50px;
@@ -272,20 +259,22 @@ section.s_one{
         height: 100%;
     }
     
-    .sub-container{
-        height: 200px;
-    }
+  
     
-    .s_two .col-12{
-        position:relative;
+    .s_two .side-bar ul {
+        list-style: none;
+        margin-left: 3rem;
+        padding-left: 1rem;
+        border-left:2px solid #D2D2D2;
     }
-    /* div.grey-line{
-        height: 250px;
-        width: 3px;
-        background-color: #D2D2D2;
-        position: absolute;
-        left: 35%;
-    } */
+   
+    
+ 
+    
+   
+
+
+
 
 
 
@@ -295,16 +284,17 @@ section.s_one{
         display: none;
     }
       /* MAIN 2°SECTION  */
-      .s_two .side-bar ul{
-        list-style: none;  
-        padding-left:4rem;
-    
+        
+    .main-bar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
-      .fixed-height-lg-md{
-        height: 200px;
+
+    .square{
+        width: 50%;
     }
-    
-    
+
 
 }
 
@@ -362,15 +352,18 @@ section.s_one{
 
    
     /* MAIN 2°SECTION  */
-    .s_two .side-bar ul{
-        list-style: none;  
-        padding-left:4rem;
     
+    .main-bar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
-    .fixed-height-lg-md{
-        height: 200px;
+
+    .square{
+        width: 50%;
     }
-    
+
+
     
 
 }
@@ -460,43 +453,35 @@ section.s_one{
 
     /* ----MAIN 2°SECTION--- */
  
+    .s_two .side-bar ul{
+        margin-left: 0;
+    }
+
     .s_two .main-bar{
-        padding-top:280px;
+        padding-top:1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
    .main-bar div:first-of-type{
     padding-top: 0.5rem;
    }
-   .s_two .side-bar ul{
-    list-style: none;  
-    position:absolute;
-    left: 3%;
-}
-.s_two .side-bar{
-    position:relative;
-}
-div.grey-line{
-    height: 250px;
-    width: 3px;
-    background-color: #D2D2D2;
-    position: absolute;
-    left: 0;
-}
+  
+
+
+    .main-bar{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .square{
+        width: 100%;
+        padding-top:1rem
+    }
 
 
 
-}
-
-.s_two .side-bar{
-    position:relative;
-}
-
-.grey-line{
-    height: 250px;
-    width: 3px;
-    background-color: #D2D2D2;
-    position: absolute;
-    top:-3%;
-    left: 15%;
 }
 
 

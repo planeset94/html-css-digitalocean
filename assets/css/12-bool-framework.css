@@ -171,6 +171,9 @@ width: calc((100%/12) *1);
 .p-bottom2{
     padding-bottom: 2rem;
 }
+.p-top2{
+    padding-top: 2rem;
+}
 
 /* -------MEDIA QUERY PER RESPONSIVE----------- */
 
