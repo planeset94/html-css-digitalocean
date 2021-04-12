@@ -162,6 +162,9 @@ width: calc((100%/12) *1);
 .p-top3{
     padding-top:3rem;
 }
+.p-bottom0.5{
+    padding-bottom: 0.5rem;
+}
 .p-bottom1{
     padding-bottom: 1rem;
 }

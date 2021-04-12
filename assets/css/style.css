@@ -3,6 +3,9 @@
 h1{
     font-size: 3.5rem;
 }
+h2{
+    font-size: 1.8rem;
+}
 h3{
     font-size: 1.6rem;
 }
@@ -263,7 +266,9 @@ section.s_one{
 
 @media all and (min-width:768px) and (max-width:999px){
 
-    
+    h2{
+        font-size: 2rem;
+    }
     .container{
         margin:0 2rem;
         
@@ -323,6 +328,9 @@ section.s_one{
     }
     h1{
         font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
     }
     h3{
         font-size: 1.9rem;
@@ -394,8 +402,11 @@ section.s_one{
         left:21%;  
     }
 
-    
+    /* ----MAIN 2°SECTION--- */
  
+    .s_two .main-bar{
+        padding-top:280px;
+    }
 
 
 
@@ -416,6 +427,7 @@ section.s_one{
 .s_two .side-bar{
     position:relative;
 }
+
 
 .s_two .side-bar ul{
     list-style: none;  
@@ -440,6 +452,6 @@ section.s_one{
 .sub-container{
     height: 200px;
 }
-.half-height{
-    height: 50%;
+.fixed-height{
+    height: 200px;
 }
