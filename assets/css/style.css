@@ -504,7 +504,16 @@ section.s_one{
     footer .info-link{
         flex-basis: 15%;
     }
-       
+    .info-link ul{
+        list-style: none;
+    }
+
+
+    .info-link ul>li>a{
+        color:#99A2B4;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
 
 
 
@@ -639,6 +648,17 @@ section.s_one{
         width: 90%;
     }
 
+    /* FOOTER  */
+    footer .flex-container{
+        flex-wrap: wrap;
+    }
+    footer .copyright{
+        flex-basis: 100%;
+    }
+
+    footer .info-link{
+        flex-basis: 50%;
+    }
     
 }
 
@@ -812,6 +832,19 @@ section.s_one{
     }
 
     
+ /* FOOTER  */
+    footer .flex-container{
+        flex-wrap: wrap;
+    }
+    footer .copyright{
+        flex-basis: 100%;
+    }
+
+    footer .info-link{
+        flex-basis: 100%;
+    }
+
+        
 
 
 }
