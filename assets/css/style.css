@@ -58,6 +58,9 @@ h5{
 .bc_lightblue2{
     background-color: #579AFF;
 }
+.bc_darkblue{
+    background-color: #031C4E;
+}
 .bc_white{
     background-color: white;
 }
@@ -486,8 +489,21 @@ section.s_one{
     border-radius: 10px;
 }
 
+        /* FOOTER  */
 
+    footer .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
 
+    footer .copyright{
+        flex-basis: 30%;
+    }
+
+    footer .info-link{
+        flex-basis: 15%;
+    }
        
 
 
